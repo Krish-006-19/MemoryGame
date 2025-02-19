@@ -59,6 +59,7 @@ btn.forEach(value=>{
             document.querySelector('.p3').classList.remove('dstart');
         if(rand == value.innerText){
             document.querySelector('.p3').innerHTML = `<b>You Won!</b>`;
+            window.location.href = "blank.html";
         }
         else{
             setTimeout(()=>{
