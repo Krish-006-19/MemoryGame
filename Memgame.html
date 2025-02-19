@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="memgame.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="grid-container">
+            <button class="btn g1 p">4</button>
+            <button class="btn p">2</button>
+            <button class="btn p g2">7</button>
+            <button class="btn p">9</button>
+            <button class="btn p">3</button>
+            <button class="btn p">1</button>
+            <button class="btn p g3">8</button>
+            <button class="btn p">5</button>
+            <button class="btn p g4">6</button>
+        </div>
+        <div class="info">
+            <button class="start" onclick="document.querySelector('.start').classList.add('dstart');">Start</button>
+            <p class="p1"></p>
+            <p class="p2"></p>
+            <p class="p3"></p>
+        </div>
+    </div>
+    <script src="memgame.js"></script>
+</body>
+</html>
